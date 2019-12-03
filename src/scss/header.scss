@@ -1,0 +1,18 @@
+.header{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden !important;
+    .bg_image{
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            filter: blur(5px);
+            transform: scale(1.1);
+        }
+    }
+}

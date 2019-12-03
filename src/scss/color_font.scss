@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+$color:(
+    primary: #009bfe, // rgba(0, 155, 254, 1)
+    secondary: #0079fe // rgba(0, 121, 254, 1)
+);
+@function color($colorName){
+    @return map-get($map: $color, $key: $colorName )
+};
